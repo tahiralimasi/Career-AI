@@ -1,7 +1,6 @@
 # 🚀 Full Stack AI Project (Career AI) 
 
-[![Watch Demo](https://img.youtube.com/vi/DaQuSSmHa9k/maxresdefault.jpg)](https://www.youtube.com/watch?v=DaQuSSmHa9k)
-
+[![Watch Demo](https://img.youtube.com/vi/DaQuSSmHa9k/maxresdefault.jpg)]
 
 An all-in-one, AI-powered career development platform engineered with Next.js 14. This application provides users with an intelligent resume builder, tailored cover letter generation, interview preparation tools, and real-time industry insights. Wrapped in a stunning, highly optimized glassmorphic Dark Mode UI.
 
@@ -58,7 +57,7 @@ Make sure you have Node.js (v18+) and npm installed on your machine. You will al
    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
    CLERK_SECRET_KEY=your_clerk_secret_key
    DATABASE_URL=your_postgresql_database_url
-   GEMINI_API_KEY=your_gemini_api_key
+   GROQ_API_KEY=your_groq_api_key
    INNGEST_EVENT_KEY=your_inngest_key
    ```
 
