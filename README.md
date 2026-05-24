@@ -44,7 +44,7 @@ The platform helps users:
 | **Prisma** | Database ORM |
 | **PostgreSQL / Supabase** | Database backend |
 | **Clerk** | User authentication |
-| **Gemini AI / OpenAI** | AI-powered features |
+| **Groq AI / OpenAI** | AI-powered features |
 | **Inngest** | Background job automation |
 
 ---
