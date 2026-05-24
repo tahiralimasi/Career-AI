@@ -9,6 +9,7 @@ Career AI is an AI-powered career development platform designed to help students
 Career AI combines AI tools and modern full-stack technologies to provide smart career guidance and job preparation in one platform.
 
 The platform helps users:
+
 - Build ATS-friendly resumes
 - Generate AI-based cover letters
 - Prepare for interviews
@@ -63,18 +64,35 @@ CAREER-AI/
 ├── actions/            # Server actions
 ├── data/               # Static data
 └── middleware.js       # Middleware configuration
+```
 
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/your-username/CAREER-AI.git
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/tahiralimasi/CAREER-AI.git
 
 cd CAREER-AI
-2️⃣ Install Dependencies
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
 npm install
-3️⃣ Setup Environment Variables
+```
 
-Create a .env.local file and add:
+---
 
+## 3️⃣ Setup Environment Variables
+
+Create a `.env.local` file and add:
+
+```env
 DATABASE_URL=
 DIRECT_URL=
 
@@ -87,15 +105,40 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
-GEMINI_API_KEY=
-OPENAI_API_KEY=
-4️⃣ Run Database Migration
+GROQ_API_KEY=
+```
+
+---
+
+## 4️⃣ Run Database Migration
+
+```bash
 npx prisma generate
 
 npx prisma db push
-5️⃣ Start Development Server
+```
+
+---
+
+## 5️⃣ Start Development Server
+
+```bash
 npm run dev
+```
 
 Application will run on:
 
+```bash
 http://localhost:3000
+```
+
+---
+
+# 👨‍💻 Developer
+
+## Tahir Ali Masi
+
+🔗 GitHub Repository:  
+https://github.com/tahiralimasi/CAREER-AI
+
+---
