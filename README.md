@@ -2,7 +2,6 @@
 
 [![Watch Demo](https://img.youtube.com/vi/DaQuSSmHa9k/maxresdefault.jpg)](https://www.youtube.com/watch?v=DaQuSSmHa9k)
 
-**Demo Video:** https://www.youtube.com/watch?v=DaQuSSmHa9k
 
 An all-in-one, AI-powered career development platform engineered with Next.js 14. This application provides users with an intelligent resume builder, tailored cover letter generation, interview preparation tools, and real-time industry insights. Wrapped in a stunning, highly optimized glassmorphic Dark Mode UI.
 
