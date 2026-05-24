@@ -63,3 +63,39 @@ CAREER-AI/
 ├── actions/            # Server actions
 ├── data/               # Static data
 └── middleware.js       # Middleware configuration
+
+⚙️ Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/your-username/CAREER-AI.git
+
+cd CAREER-AI
+2️⃣ Install Dependencies
+npm install
+3️⃣ Setup Environment Variables
+
+Create a .env.local file and add:
+
+DATABASE_URL=
+DIRECT_URL=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+
+GEMINI_API_KEY=
+OPENAI_API_KEY=
+4️⃣ Run Database Migration
+npx prisma generate
+
+npx prisma db push
+5️⃣ Start Development Server
+npm run dev
+
+Application will run on:
+
+http://localhost:3000
