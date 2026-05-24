@@ -27,7 +27,7 @@ An all-in-one, AI-powered career development platform engineered with Next.js 14
 - **Authentication:** [Clerk](https://clerk.com/)
 - **Database:** PostgreSQL via [Neon](https://neon.tech/)
 - **ORM:** [Prisma](https://www.prisma.io/)
-- **AI Integration:** [Google Gemini API](https://ai.google.dev/)
+- **AI Integration:** [GROQ API]([https://ai.google.dev/](https://console.groq.com/keys))
 - **Background Jobs:** [Inngest](https://www.inngest.com/)
 - **Form Management:** React Hook Form + Zod
 - **Deployment:** Vercel
